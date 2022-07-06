@@ -1,8 +1,11 @@
 import React from 'react'
+import MenuItem from "../MenuItem"
 
  function Menu() {
     return (
-      <div>Menu</div>
+      <div>
+      <MenuItem />
+      </div>
     )
   }
 

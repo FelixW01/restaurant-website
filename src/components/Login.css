@@ -1,0 +1,33 @@
+@media all and (min-width: 480px) {
+    .login {
+        padding: 60px 0;
+    }
+
+    .login form {
+        margin: 0 auto;
+        max-width: 420px;
+    }
+}
+
+.login {
+    margin: 150px 0 150px 0;
+    width: auto;
+    height: auto;
+}
+
+.btn {
+    margin-top: 8px;
+    width: 138px;
+    margin: 10px 141px 10px 141px;
+}
+
+.signup {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup-link {
+    text-decoration: none;
+    color: #24a0ED;
+}
