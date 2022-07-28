@@ -18,7 +18,7 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption className="">
-            <h3>Homemade, Fresh, Authentic</h3>
+            <h3>Homemade, Fresh, Authentic.</h3>
             <p>Delightful Indonesian cuisine delivered straight to your door</p>
           </Carousel.Caption>
         </Carousel.Item>

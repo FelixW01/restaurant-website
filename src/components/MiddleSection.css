@@ -18,3 +18,9 @@
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+hr {
+    border-top: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+}

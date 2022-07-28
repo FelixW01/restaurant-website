@@ -5,21 +5,48 @@ import './Cards.css';
 function Cards() {
   return (
     <div className="cards">
-    <h1>Check Us Out</h1>
         <div className="cards__container">
             <div className="cards__wrapper">
-            <ul className='cards__items'>
+            <div className='cards__item1'>
             <CardItem
               src="images/img1.jpg"
-              text='Menu'
               path='/menu'
             />
-            <CardItem
+            <div className="paragraph-container">
+            <div className="header-1">
+            <h2>à la carte</h2>
+            <br/>
+            <h3>_</h3>
+            <div className="paragraph-1">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            </div>
+          </div>
+          </div>
+          
+          <div className="cards__item2">
+          <CardItem
               src='images/img1.jpg'
-              text='Catering'
               path='/catering'
             />
-          </ul>
+            <div className="paragraph-container">
+            <div className="header-2">
+            <h2>Private Catering</h2>
+            <br/>
+            <h3>_</h3>
+            <div className="paragraph-2">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            </div>
+          </div>
+            
+          </div>
         </div>
       </div>
     </div>

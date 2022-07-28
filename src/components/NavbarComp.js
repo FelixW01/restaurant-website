@@ -2,6 +2,9 @@ import React from "react";
 import {Link} from "react-router-dom";
 import {Navbar, Nav, NavDropdown, Container } from "react-bootstrap"
 import "./NavbarComp.css"
+import { FaShoppingCart } from "react-icons/fa";
+import { BiRestaurant } from "react-icons/bi";
+
 
 
 function NavbarComp() {
@@ -9,7 +12,7 @@ function NavbarComp() {
 <div className="nav-container">
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="/">The Food Company</Navbar.Brand>
+  <Navbar.Brand href="/"><BiRestaurant className="icon1"/>Lili's Kitchen</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
@@ -27,7 +30,7 @@ function NavbarComp() {
       <Nav.Link eventKey={2} as={Link} to={"/signin"}>
         Sign In
       </Nav.Link>
-      <Nav.Link as={Link} to={"/cart"}>Cart</Nav.Link>
+      <Nav.Link as={Link} to={"/cart"}> <FaShoppingCart /> Cart </Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
